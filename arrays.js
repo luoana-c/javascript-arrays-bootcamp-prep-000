@@ -24,7 +24,3 @@ function destructivelyAddElementToEndOfArray(array, element) {
   return array;
 }
 
-addElementToBeginningOfArray([1], "foo")
-destructivelyAddElementToBeginningOfArray([1], "foo")
-addElementToEndOfArray([1], "foo")
-destructivelyAddElementToEndOfArray([1], "foo")
