@@ -23,3 +23,5 @@ function destructivelyAddElementToEndOfArray(array, item) {
   array = array.push(item);
   return array;
 }
+
+addElementToBeginningOfArray([1], "foo")
