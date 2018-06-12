@@ -5,22 +5,22 @@ var chocolateBars = [
   "skittles"
   ];
   
-function addElementToBeginningOfArray(array, item) {
-  newArray = array.unshift(item);
+function addElementToBeginningOfArray(array, element) {
+  newArray = array.unshift(element);
   return newArray;
 }
 
-function destructivelyAddElementToBeginningOfArray(array, item) {
-  array = array.unshift(item);
+function destructivelyAddElementToBeginningOfArray(array, element) {
+  array = array.unshift(element);
   return array;
 }
 
-function addElementToEndOfArray(array, item) {
-  newArray = array.push(item);
+function addElementToEndOfArray(array, element) {
+  newArray = array.push(element);
   return newArray;
 }
-function destructivelyAddElementToEndOfArray(array, item) {
-  array = array.push(item);
+function destructivelyAddElementToEndOfArray(array, element) {
+  array = array.push(element);
   return array;
 }
 
